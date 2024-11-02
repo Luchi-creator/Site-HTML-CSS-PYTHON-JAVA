@@ -1,0 +1,42 @@
+
+    <section id="section1">
+        <legend> Sectiunea 1</legend>
+        <p> Adresa URL este: <span id="myURL"></span></p>
+        <p> Ora si data: <span id="myDateTime"> </span></p>
+        <p> Locatia: <span id="myLocation"> </span>
+        <p> Numele si versiunea browserului: <span id="myBrowser"></span></p>
+    <section>
+    <section id = "section2">
+        <legend> Sectiunea 2 </legend>
+        <canvas id="Canvas" style="border:1px solid grey"></canvas>
+        <form>
+            <label for="prColor">Culoare principala:</label>
+            <input type="color" id="prColor" name="prColor"><br>
+            <label for="secColor">Culoare secundara:</label>
+            <input type="color" id="secColor" name="secColor"><br><br>
+        </form>
+    </section> 
+    <section id="section3">
+        <label for="pozitie">Pozitie:</label><br>
+        <input type="text" id="pozitie" name="pozitie" value=""><br>
+        <label for="culoareTare">Culoare secundara:</label>
+        <input type="color" id="culoareTare" name="culoareTare"><br><br>
+        <div class="butoane">
+            <button onclick="addColumn()">Adaugă Coloană</button>
+            <button onclick="addRow()">Adaugă Rând</button>
+            <button onclick="deleteColumn()">Șterge Coloană</button>
+            <button onclick="deleteRow()">Șterge Rând</button>
+        </div>
+        <table id="myTable">
+            <tr>
+                <th>Tabelul</th>
+                <th>Asta</th>
+                <th>E</th>
+            </tr>
+            <tr>
+                <td>Facut</td>
+                <td>Pentru</td>
+                <td>Test</td>
+            </tr>
+        </table>
+    </section> 

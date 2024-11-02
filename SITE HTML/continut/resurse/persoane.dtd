@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE persoane [
+    <!ELEMENT persoana (nume,prenume,varsta,adresa,studii,limbi)>
+    <!ELEMENT nume (#PCDATA)>
+    <!ELEMENT prenume (#PCDATA)>
+    <!ELEMENT varsta (#PCDATA)>
+    <!ELEMENT adresa (strada,numar,localitate,judet,tara)>
+    <!ELEMENT strada (#PCDATA)>
+    <!ELEMENT numar (#PCDATA)>
+    <!ELEMENT localitate ()>
+]>

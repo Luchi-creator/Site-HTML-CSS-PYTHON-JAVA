@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Unirii</strada>
+            <numar>1</numar>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+        <studii>
+            <liceu>Colegiul Național Garabet Ibrăileanu</liceu>
+            <facultate>Facultatea de Informatică</facultate>
+        </studii>
+        <limbi>
+            <engleză>B2</engleză>          
+            <franceză>A1</franceză>
+            <germană>A2</germană>
+        </limbi>
+    </persoana>
+    <persoana id="2">
+        <nume>Popescu</nume>
+        <prenume>Pop</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Ștefan</strada>
+            <numar>2</numar>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+        <studii>
+            <liceu>Liceul de Informatică</liceu>
+            <facultate>Facultatea de Informatică</facultate>
+        </studii>
+        <limbi>
+            <engleză>B2</engleză>          
+            <franceză>A1</franceză>
+            <germană>A2</germană>
+        </limbi>
+    </persoana>
+    <persoana id="3">
+        <nume>Popa</nume>
+        <prenume>Andreea</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Libertății</strada>
+            <numar>10</numar>
+            <localitate>București</localitate>
+            <judet>București</judet>
+            <tara>România</tara>
+        </adresa>
+        <studii>
+            <liceu>Colegiul Național</liceu>
+            <facultate>Facultatea de Drept</facultate>
+        </studii>
+        <limbi>
+            <engleză>C1</engleză>
+            <franceză>B2</franceză>
+            <spaniolă>A2</spaniolă>
+        </limbi>
+    </persoana>
+    <persoana id="4">
+        <nume>Ionescu</nume>
+        <prenume>Mihai</prenume>
+        <varsta>28</varsta>
+        <adresa>
+            <strada>Mihai Viteazu</strada>
+            <numar>5</numar>
+            <localitate>Cluj-Napoca</localitate>
+            <judet>Cluj</judet>
+            <tara>România</tara>
+        </adresa>
+        <studii>
+            <liceu>Colegiul Național de Informatică</liceu>
+            <facultate>Facultatea de Matematică și Informatică</facultate>
+        </studii>
+        <limbi>
+            <engleză>B2</engleză>
+            <germană>B1</germană>
+            <italiană>A1</italiană>
+        </limbi>
+    </persoana>
+</persoane>

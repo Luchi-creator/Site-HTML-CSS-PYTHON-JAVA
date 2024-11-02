@@ -1,0 +1,49 @@
+
+    <form>
+        <fieldset>
+            <legend>Informatii generale:</legend>
+            <label for="Nume_utilizator">Nume utilizator</label><br>
+            <input type="text" id="Nume_utilizator" name="Nume_utilizator" value=""><br>
+            <label for="pwd">Parola:</label><br>
+            <input type="password" id="pwd" name="pwd" minlength="8"><br>
+            <label for="nume">Nume:</label><br>
+            <input type="text" id="nume" name="nume" value=""><br>
+            <label for="prenume">Prenume:</label><br>
+            <input type="text" id="prenume" name="prenume" value=""><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="telefon">Telefon</label><br>
+            <input type="tel" id="telefon" name="telefon"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Informatii personale:</legend>
+            <label for="sex">Sex:</label><br>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="altceva">Prefer sa nu mentionez</option>
+            </select><br>
+            <label for="mancare">Mancarea preferata</label><br>
+            <input list="mancares" name="mancare" id="mancare">
+            <datalist id="mancares">
+                <option value="Sarmale">
+                <option value="Paine">
+                <option value="Fasole">
+                <option value="Inghetata">
+                <option value="Chipsuri">
+            </datalist><br>
+            <label for="culoare">Culoare preferata</label><br>
+            <input type="color" id="culoare" name="culoare"><br>
+            <label for="data_nastere">Data nasterii</label><br>
+            <input type="date" id="data_nastere" name="data_nastere"><br>
+            <label for="ora_nasterii">Ora nasterii</label><br>
+            <input type="time" id="ora_nasterii" name="ora_nasterii"><br>
+            <label for="age">Varsta</label><br>
+            <input type="range" id="age" name="age" min="0" max="100"><br>
+            <label for="app">Adresa paginii personale</label><br>
+            <input type="url" id="app" name="app"><br>
+            <label for="descriere">Descriere</label><br>
+            <textarea id="descriere" name="descriere" rows="3" cols="30"></textarea><br>
+            <button disabled>Inregistreaza</button>
+        </fieldset>
+    </form>
